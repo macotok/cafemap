@@ -1,11 +1,33 @@
 import React from 'react';
+import BaseLayout from '../components/Layouts/BaseLayout';
+import Link from "next/link";
 
-const sum = (a: number, b: number): number => a + b;
-
-const Home = (): JSX.Element => (
+const Home: React.FunctionComponent = (): JSX.Element => (
   <>
-    <h1>Hello, World</h1>
-    {sum(1, 2)}
+    <BaseLayout>
+      <h1>Cafe Map</h1>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/login">
+                <a>Login</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </BaseLayout>
   </>
 );
 
