@@ -1,10 +1,10 @@
 import React from 'react';
-import Title from '../Atoms/Title';
+import H1Title from '../Atoms/Title/H1Title';
 import Nav from '../Molecules/Nav';
 
 const Header: React.FunctionComponent = (): JSX.Element => (
   <>
-    <Title />
+    <H1Title />
     <Nav />
   </>
 );

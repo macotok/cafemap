@@ -7,12 +7,12 @@
 - TypeScript
 - ESLint
 - ESLint for Typescript
-
+- Atomic Design
+- styled Components
 
 ### ToDo
 
 - Jest
-- styleComponent
 - GraphQL
 - Firebase
 - CI
