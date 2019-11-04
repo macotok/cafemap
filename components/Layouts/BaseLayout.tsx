@@ -26,7 +26,9 @@ const BaseLayout: React.FunctionComponent<LayoutProps> = ({ children, title}) =>
       <link rel="apple-touch-icon" href="" />
     </Head>
     <LayoutStyled />
-    {children}
+    <div className="container-fluid">
+      {children}
+    </div>
   </>
 );
 

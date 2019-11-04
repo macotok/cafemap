@@ -23,7 +23,7 @@ const navList = [
 
 
 const Nav: React.FunctionComponent = (): JSX.Element => (
-  <nav>
+  <nav className="mb-4">
     <ul className="nav nav-pills nav-fill">
       {
         navList.map((nav: NavList, index: number) => (
