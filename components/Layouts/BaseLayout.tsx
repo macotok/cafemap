@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import LayoutStyled from "./LayoutStyled";
 
 type LayoutProps = {
