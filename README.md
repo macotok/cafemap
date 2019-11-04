@@ -10,6 +10,7 @@
 - ESLint for Typescript
 - Atomic Design
 - styled Components
+- Bootstrap
 
 ### ToDo
 
