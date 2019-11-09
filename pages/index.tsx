@@ -1,12 +1,12 @@
 import React from 'react';
 import BaseLayout from '../components/Layouts/BaseLayout';
-import Header from '../components/Molecules/Header';
+import HeaderBlock from '../components/Molecules/Header/HeaderBlock';
 import AreaSelect from '../components/Organisms/Form/AreaSelect';
 
-const Home: React.FunctionComponent = (): JSX.Element => (
+const Home: React.FC = (): JSX.Element => (
   <>
     <BaseLayout>
-      <Header />
+      <HeaderBlock />
       <AreaSelect />
     </BaseLayout>
   </>

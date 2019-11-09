@@ -19,10 +19,9 @@ const navList = [
     href: '/login',
     text: 'Login'
   },
-]
+];
 
-
-const Nav: React.FunctionComponent = (): JSX.Element => (
+const Nav: React.FC = (): JSX.Element => (
   <nav className="mb-4">
     <ul className="nav nav-pills nav-fill">
       {
