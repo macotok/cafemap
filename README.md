@@ -11,6 +11,8 @@
 - Atomic Design
 - styled Components
 - Bootstrap
+- Redux
+- ReduxForm
 
 ### ToDo
 

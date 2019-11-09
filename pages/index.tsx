@@ -1,14 +1,14 @@
 import React from 'react';
-import BaseLayout from '../components/Layouts/BaseLayout';
+import DefaultLayout from '../components/Layouts/DefaultLayout';
 import HeaderBlock from '../components/Molecules/Header/HeaderBlock';
 import AreaSelect from '../components/Organisms/Form/AreaSelect';
 
 const Home: React.FC = (): JSX.Element => (
   <>
-    <BaseLayout>
+    <DefaultLayout>
       <HeaderBlock />
       <AreaSelect />
-    </BaseLayout>
+    </DefaultLayout>
   </>
 );
 
