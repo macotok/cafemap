@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import H1Title from '../../Atoms/Title/H1Title';
 import Nav from './Nav';
 
