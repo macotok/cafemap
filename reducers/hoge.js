@@ -1,4 +1,4 @@
-const hoge = (state = {foo: ''}, action) => {
+const hoge = (state = {foo: 'foo'}, action) => {
   switch (action.type) {
     case 'FOO':
       return {...state, foo: action.payload};
