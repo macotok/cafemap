@@ -1,27 +1,14 @@
 {
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint"
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": [
     "@typescript-eslint"
   ],
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "sourceType": "module",
-    "project": "./tsconfig.json",
-    "ecmaFeatures": {
-      "jsx": true
-    }
+    "project": "./tsconfig.json"
   },
   "rules": {
     "@typescript-eslint/adjacent-overload-signatures": "error"
@@ -29,7 +16,7 @@
   "settings": {
     "import/resolver": {
       "alias": {
-        "extensions": [".ts", ".tsx", ",.js", ".jsx", ",.json"]
+        "extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
       }
     }
   }
