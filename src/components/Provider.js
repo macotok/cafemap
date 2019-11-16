@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
-import AppContext from '../contexts/AppContext.js';
-import reducer from '../reducers';
+import AppContext from '@/contexts/AppContext.js';
+import reducer from '@/reducers';
 
 const Provider = ({ children }) => {
   const initialState = {

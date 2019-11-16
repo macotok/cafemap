@@ -1,6 +1,6 @@
 import React from 'react';
 import App from 'next/app';
-import Provider from '../components/Provider';
+import Provider from '@/components/Provider';
 
 class MyApp extends App {
   render() {

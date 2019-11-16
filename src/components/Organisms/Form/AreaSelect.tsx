@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from '../../Atoms/Form/TextInput';
+import TextInput from '@/components/Atoms/Form/TextInput';
 
 const AreaSelect: React.FC = (): JSX.Element => (
   <form className="d-flex">

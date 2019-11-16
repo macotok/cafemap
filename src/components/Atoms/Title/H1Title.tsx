@@ -1,5 +1,5 @@
 import React from 'react';
-import { H1 } from './TitleStyled';
+import { H1 } from '@/components/Atoms/Title/TitleStyled';
 
 const H1Title: React.FC = (): JSX.Element => (
   <H1>
