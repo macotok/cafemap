@@ -1,10 +1,11 @@
 import React, { useReducer } from 'react';
 import AppContext from '@/contexts/AppContext.js';
 import reducer from '@/reducers';
+import cafe from '@/store/state/cafe'
 
 const Provider = ({ children }) => {
   const initialState = {
-    hoge: 'hoge'
+    cafe,
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
